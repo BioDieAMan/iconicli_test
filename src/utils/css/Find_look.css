@@ -1,0 +1,26 @@
+.Findlook_Box {
+    position: absolute;
+    width: 71.5%;
+    height: 360px;
+    left: 14.25%;
+    top: 243px;
+}
+
+.Findlook_img {
+    position: absolute;
+    width: 353px;
+    height: 353px;
+    top:0px;
+    right: 0px;
+}
+
+.Findlook_Rectangle{
+    position: absolute;
+    width: 353px;
+    height: 353px;
+    
+    top:7px;
+    right: 8px;
+
+    background: #8C52FF;
+}

@@ -17,9 +17,9 @@ module.exports = {
 		'sourceType': 'module'
 	},
 	'plugins': [
-		'react',
-		'@typescript-eslint'
+		'react'
 	],
 	'rules': {
+		"react/prop-types": 0 //防止在react组件定义中缺少props验证
 	}
 }

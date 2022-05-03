@@ -1,0 +1,82 @@
+.NavbarHeader {
+    position:absolute;
+    width: 90%;
+    height: 41px;
+    left: 5%;
+    top: 32px;
+
+    background: #ffffff;
+
+}
+
+.NavbarRectangle {
+    position: absolute;
+    width: 105.58%;
+    height: 105px;
+    left:-15%;
+    padding-right:15%;
+    top: -32px;
+    background: #f3f3f3;
+}
+
+.LandingLogo {
+    position: absolute;
+    left: 0%;
+    right: 84.18%;
+    /* background: #1f0045; */
+    height: 25px;
+    width: 200px;
+    left: 0px;
+    top: 8px;
+}
+
+.NavbarMenu {
+    
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    left: 28.64%;
+    right: 28.56%;
+    top: 24.39%;
+    bottom: 17.07%;
+}
+
+.Navbar_Login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    position: absolute;
+    left: 85.28%;
+    right: 8.62%;
+    top: 1.22%;
+    bottom: 1.22%;
+
+    background: #ffffff;
+    border: 1px solid #1f0045;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.Navbar_Signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    position: absolute;
+    left: 93.12%;
+    right: 0%;
+    top: 1.22%;
+    bottom: 1.22%;
+
+    background: #1f0045;
+    box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
