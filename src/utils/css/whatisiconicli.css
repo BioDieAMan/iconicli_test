@@ -1,0 +1,107 @@
+.as {
+    position: absolute;
+    width: 995px;
+    height: 433px;
+}
+
+.whatrectangle {
+    position: absolute;
+    width: 353px;
+    height: 353px;
+    left: 0px;
+    top: 18px;
+
+    background: #8c52ff;
+}
+
+.whatis-img {
+    position: absolute;
+    width: 353px;
+    height: 353px;
+    left: 8px;
+    top: 10px;
+}
+
+.whatis-onlinebox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+
+    position: absolute;
+    width: 366px;
+    height: 122px;
+    left: 473px;
+    top: 0px;
+}
+
+.whatis-online {
+    position: static;
+    width: 400px;
+    height: 106px;
+    left: 8px;
+    top: 8px;
+    text-align: left;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.whatis-intro {
+    position: absolute;
+    width: 560px;
+    height: 190px;
+    left: 491px;
+    top: 143px;
+    text-align: left;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #1f0045;
+}
+
+.whatis-button {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 107px;
+    top: 398px;
+}
+
+.whatis-button2 {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 179px;
+    top: 398px;
+}
+
+.whatis-arrow {
+    position: absolute;
+    width:14px;
+    height: 24px;
+    left:21px;
+    top:16px;
+}
+
+.whatis-ellipse {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left:0px;
+    top:0px;
+}

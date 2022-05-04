@@ -4,9 +4,7 @@
     height: 41px;
     left: 5%;
     top: 32px;
-
     background: #ffffff;
-
 }
 
 .NavbarRectangle {
@@ -23,7 +21,6 @@
     position: absolute;
     left: 0%;
     right: 84.18%;
-    /* background: #1f0045; */
     height: 25px;
     width: 200px;
     left: 0px;
@@ -32,6 +29,7 @@
 
 .NavbarMenu {
     
+    justify-content: center;
     display:flex;
     flex-direction: row;
     align-items: flex-start;

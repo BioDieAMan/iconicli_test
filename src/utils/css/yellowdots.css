@@ -1,0 +1,26 @@
+.dots-ellipse {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 294px;
+    height: 6px;
+}
+
+.dots {
+    position: absolute;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    top: 0px;
+
+    background: #ffc710;
+
+    /* Inside auto layout */
+
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 0px;
+}

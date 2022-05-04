@@ -1,12 +1,13 @@
 import logo from "./logo.svg";
-import "./App.css";
-import "./index.css";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Landingpage from "./Pages/Landingpage";
 import Loginpage from "./Pages/Loginpage";
 import Registerpage from "./Pages/Registerpage";
+
+import "./App.css";
+import "./index.css";
 
 function App() {
     return (
