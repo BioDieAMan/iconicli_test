@@ -1,0 +1,161 @@
+.bkins-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 449px;
+    height: 122px;
+    left: 145px;
+    top: 1539px;
+}
+
+.bkins-botalen {
+    position: absolute;
+    width: 500px;
+    height: 42px;
+    left: 0px;
+    top: 22px;
+    text-align: left;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+
+    color: #000000;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.bkins-num {
+    position: absolute;
+    width: 240px;
+    height: 42px;
+    left: 0px;
+    top: 80px;
+
+    text-align: left;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+
+    color: #8c52ff;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.bkins-content {
+    position: absolute;
+    width: 1332px;
+    height: 459px;
+    left: 177px;
+    top: 1709px;
+}
+
+.bkins-modelinfo-box {
+    position: absolute;
+    width: auto;
+    height: 459px;
+    top: 0px;
+}
+
+.bkins-modelinfo-rect {
+    position: absolute;
+    width: 295px;
+    height: 368px;
+    left: 0px;
+    top: 8px;
+    background: #8c52ff;
+}
+
+.bkins-img {
+    position: absolute;
+    width: 295px;
+    height: 368px;
+    left: 8px;
+    top: 0px;
+}
+.bkins-modelinfo-name {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 8px;
+    top: 398px;
+    text-align: left;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+.bkins-modelinfo-address {
+    position: absolute;
+    width: 190px;
+    height: 19px;
+    left: 8px;
+    bottom: 0px;
+    text-align: left;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #8c52ff;
+}
+.bkins-button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 72px;
+    height: 40px;
+    left: 223px;
+    top: 397px;
+
+    background: #8c52ff;
+    box-shadow: -2px 2px 11px #8c52ff;
+    border-radius: 8px;
+}
+
+.bkins-button {
+    position: static;
+    width: 34px;
+    height: 16px;
+    left: 19px;
+    top: 12px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #ffffff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* margin: 0px 10px; */
+}
