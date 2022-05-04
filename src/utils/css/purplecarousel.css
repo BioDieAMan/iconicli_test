@@ -1,0 +1,45 @@
+.purcar-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 74px;
+    height: 14px;
+}
+
+.purcar-dots1 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    left: 0px;
+    top: 0px;
+
+    background: #8c52ff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+
+    /* Inside auto layout */
+
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.purcar-dots2 {
+    border-radius: 50%;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 2px;
+
+    background: #1f0045;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}

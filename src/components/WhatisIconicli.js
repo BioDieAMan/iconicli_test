@@ -2,6 +2,8 @@ import React from "react";
 import { StyledEngineProvider } from "@mui/material/styles";
 import { Box, Typography, Button } from "@mui/material";
 
+import PurpleCarousel from "./PurpleCarousel";
+
 import "../utils/css/whatisiconicli.css";
 import pexelstimamiroshnichenko from "../utils/images/pexels-tima-miroshnichenko-7206527.jpg";
 import Arrow10 from "../utils/images/Arrow10.png";
@@ -39,6 +41,7 @@ const WhatisIconicli = ({ props }) => {
                     <img src={Arrow9} className="whatis-arrow" />
                     <img src={Ellipse267} className="whatis-ellipse" />
                 </Box>
+                <PurpleCarousel props={{left:"470px", top:"419px"}}/>
             </Box>
         </React.Fragment>
     );
