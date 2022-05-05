@@ -12,6 +12,8 @@ import { StickyContainer, Sticky } from "react-sticky";
 
 import "../utils/css/landingpage.css";
 //TODO:rewrite all the css file into className selector
+//TODO:rewrite all the css file, make the css file as neat as possible
+//TODO:delete the yellow dots and what is title and rewrite it into whatis component
 
 const Landingpage = () => {
     return (

@@ -1,186 +1,193 @@
 .howitworks {
-    /* Auto layout */
+	/* Auto layout */
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
 
-    position: absolute;
-    width: 294px;
-    height: 70px;
-    left: 145px;
-    top: 2317px;
+	position: absolute;
+	width: 294px;
+	height: 70px;
+	left: 145px;
+	top: 2317px;
 }
 
 .howitworks .title {
-    position: static;
-    width: 220px;
-    height: 42px;
-    left: 0px;
-    top: 28px;
+	position: static;
+	width: 220px;
+	height: 42px;
+	left: 0px;
+	top: 28px;
 
-    text-align: left;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 42px;
+	text-align: left;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 42px;
 
-    color: #000000;
+	color: #000000;
 
-    /* Inside auto layout */
+	/* Inside auto layout */
 
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 22px 0px;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 22px 0px;
 }
 
 .howitworks .flow {
-    position: absolute;
-    width: 798px;
-    height: 270px;
-    left: 139px;
-    top: 176px;
+	position: absolute;
+	width: 798px;
+	height: 270px;
+	left: 139px;
+	top: 176px;
 }
 
 .howitworks .flow .line1 {
-    position: absolute;
-    width: 692.87px;
-    height: 0px;
-    left: 82.1px;
-    top: 41px;
-    background-color: #1f0045;
-    border: 1px solid #1f0045;
+	position: absolute;
+	width: 692.87px;
+	height: 0px;
+	left: 82.1px;
+	top: 41px;
+	background-color: #1f0045;
+	border: 1px solid #1f0045;
 }
 
 .howitworks .flow .line2 {
-    position: absolute;
-    width: 0px;
-    height: 70px;
-    left: 774.97px;
-    top: 41px;
-    background-color:#000000 ;
-    border: 1px solid #000000;
+	position: absolute;
+	width: 0px;
+	height: 70px;
+	left: 774.97px;
+	top: 41px;
+	background-color: #000000;
+	border: 1px solid #000000;
 }
 
 .howitworks .flow .line3 {
-    position: absolute;
-    width: 0px;
-    height: 70px;
-    left: 773.97px;
-    top: 158px;
-    background-color:#8C52FF ;
+	position: absolute;
+	width: 0px;
+	height: 70px;
+	left: 773.97px;
+	top: 158px;
+	background-color: #8c52ff;
 
-    border: 1px solid #8C52FF;
+	border: 1px solid #8c52ff;
 }
 
 .howitworks .flow .line4 {
-    position: absolute;
-    width: 688.86px;
-    height: 0px;
-    left: 84.11px;
-    top: 229px;
-    background-color: #8C52FF;
-    border: 1px solid #8C52FF;
+	position: absolute;
+	width: 688.86px;
+	height: 0px;
+	left: 84.11px;
+	top: 229px;
+	background-color: #8c52ff;
+	border: 1px solid #8c52ff;
 }
 
 .howitworks .flow .yinyang {
-    position: absolute;
-    width: 50.06px;
-    height: 50px;
-    left: 747.94px;
-    top: 109px;
+	position: absolute;
+	width: 50.06px;
+	height: 50px;
+	left: 747.94px;
+	top: 109px;
 }
 
 .howitworks .flow .ellipse {
-    position: absolute;
-    width: 84px;
-    height: 84px;
-    left: 0px;
+	position: absolute;
+	width: 84px;
+	height: 84px;
+	left: 0px;
 
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
-
 .howitworks .flow .clientimg {
-    position: absolute;
-    width: 27.44px;
-    height: 32px;
-    left: 28px;
-    top: 14px;
+	position: absolute;
+	width: 27.44px;
+	height: 32px;
+	left: 28px;
+	top: 14px;
+}
+
+.howitworks .flow .clientimg2 {
+	position: absolute;
+	width: 38.07px;
+	height: 32px;
+	left: 23px;
+	top: 18px;
 }
 
 .howitworks .flow .client {
-    position: absolute;
-    width: 39px;
-    height: 18px;
-    left: 23px;
-    top: 52px;
+	position: absolute;
+	width: 39px;
+	height: 18px;
+	left: 23px;
+	top: 52px;
 
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    /* identical to box height */
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	/* identical to box height */
 
-    text-align: center;
+	text-align: center;
 
-    color: #ffffff;
+	color: #ffffff;
 }
 
 .howitworks .flow .block {
-    position: absolute;
-    width: 134.17px;
-    height: 52px;
+	position: absolute;
+	width: 134.17px;
+	height: 52px;
 
-    background: #1f0045;
-    border-radius: 8px;
+	background: #1f0045;
+	border-radius: 8px;
 }
 
 .howitworks .flow .block2 {
-    position: absolute;
-    width: 134.17px;
-    height: 52px;
+	position: absolute;
+	width: 134.17px;
+	height: 52px;
 
-    background: #8C52FF;
-    border-radius: 8px;
+	background: #8c52ff;
+	border-radius: 8px;
 }
 
 .howitworks .flow .text1 {
-    position: absolute;
-    width: 71.09px;
-    height: 36px;
-    left: 32.04px;
-    top: 8px;
-    text-align: center;
+	position: absolute;
+	width: 71.09px;
+	height: 36px;
+	left: 32.04px;
+	top: 8px;
+	text-align: center;
 
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    text-align: center;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
 
-    color: #ffffff;
+	color: #ffffff;
 }
 
-.howitworks .flow .text2{
-    position: absolute;
-    width: 71.09px;
-    height: 36px;
-    left: 32.04px;
-    top: 17px;
-    text-align: center;
+.howitworks .flow .text2 {
+	position: absolute;
+	width: 71.09px;
+	height: 36px;
+	left: 32.04px;
+	top: 17px;
+	text-align: center;
 
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    text-align: center;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
 
-    color: #ffffff;
+	color: #ffffff;
 }
