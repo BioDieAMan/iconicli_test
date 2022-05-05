@@ -12,7 +12,7 @@ import Arrow9 from "../utils/images/Arrow9.png";
 import Ellipse267 from "../utils/images/Ellipse267.png";
 
 const WhatisIconicli = ({ props }) => {
-    return (
+    return (//TODO: make the yellow dots and title involved
         <React.Fragment>
             <Box className="as" sx={props}>
                 <Box className="whatrectangle"></Box>

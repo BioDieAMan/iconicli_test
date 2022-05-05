@@ -7,7 +7,7 @@ import ModelInfo from "./ModelInfo";
 
 import "../utils/css/bookinstantly.css"
 
-
+//TODO: add short line at the bottom of the box
 const BookInstantly = () => {
     return (
         <>
