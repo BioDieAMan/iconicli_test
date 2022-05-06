@@ -9,7 +9,7 @@ import "../utils/css/howitworks.css";
 import Clients from "../utils/images/Clients.png";
 import Models from "../utils/images/Models.png";
 import Yinyang from "../utils/images/Yin_yangCOLOR1.png";
-
+//TODO: convert the png files to svg files
 
 const HowItWorks = () => {
 	return (

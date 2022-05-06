@@ -41,7 +41,7 @@ const WhatisIconicli = ({ props }) => {
                     <img src={Arrow9} className="whatis-arrow" />
                     <img src={Ellipse267} className="whatis-ellipse" />
                 </Box>
-                <PurpleCarousel props={{left:"470px", top:"419px"}}/>
+                <PurpleCarousel position={{ left: "470px", top: "419px" }} length={4}/>
             </Box>
         </React.Fragment>
     );

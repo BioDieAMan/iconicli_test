@@ -1,4 +1,5 @@
 import React from "react";
+
 import Navbar from "../components/Navbar";
 import CreateAccount from "../components/CreateAccount";
 import WhatisIconicli from "../components/WhatisIconicli";
@@ -6,6 +7,8 @@ import YellowDots from "../components/YellowDots";
 import BookInstantly from "../components/BookInstantly";
 import HowItWorks from "../components/HowItWorks";
 import Pricing from "../components/Pricing";
+import WhyJoin from "../components/WhyJoin";
+
 import { Box, Typography, Button } from "@mui/material";
 import { StyledEngineProvider } from "@mui/material/styles";
 
@@ -28,6 +31,7 @@ const Landingpage = () => {
 					<BookInstantly />
 					<HowItWorks />
 					<Pricing />
+					<WhyJoin/>
 				</Box>
 				<Navbar />
 			</Box>

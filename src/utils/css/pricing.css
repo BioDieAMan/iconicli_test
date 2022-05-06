@@ -139,7 +139,7 @@ width: 48px;
 height: 0px;
 left: 90.5px;
 top: 39px;
-
+background-color: #FFC710;
 border: 1px solid #FFC710;
 
 /* Inside auto layout */
@@ -234,6 +234,7 @@ height: 0px;
 left: 102px;
 top: 39px;
 
+background-color: #FFC710;
 border: 1px solid #FFC710;
 
 /* Inside auto layout */
