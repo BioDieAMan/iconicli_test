@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import { Link } from "react-router-dom";
 import { Box, Typography, Button } from "@mui/material";
 
@@ -74,8 +74,13 @@ const Navbar_Signup_text = {
 class Navbar extends Component {
 	constructor(props) {
 		super(props);
+		this.setPath = {
+			path: window.location.pathname,
+		};
 	}
+
 	render() {
+		// const [path, setPath] = useState(window.location.pathname);
 		return (
 			<Box className="NavbarHeader">
 				<Box className="NavbarRectangle"></Box>
@@ -137,10 +142,22 @@ class Navbar extends Component {
 					</Typography>
 				</Box>
 				<Box className="Navbar_Login">
-					<Button style={Navbar_Login_text}>Log in</Button>
+					<Button
+						component={Link}
+						to="/login"
+						style={Navbar_Login_text}
+						onClick={() => this.setPath("/login")}>
+						Log in
+					</Button>
 				</Box>
 				<Box className="Navbar_Signup">
-					<Button style={Navbar_Signup_text}>Sign up</Button>
+					<Button
+						component={Link}
+						to="/register"
+						style={Navbar_Signup_text}
+						onClick={() => this.setPath("/register")}>
+						Sign up
+					</Button>
 				</Box>
 			</Box>
 		);

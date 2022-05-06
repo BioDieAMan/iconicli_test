@@ -2,7 +2,7 @@
     "editor.defaultFormatter": null,
     "eslint.format.enable": false,
     "prettier.jsxBracketSameLine": true,
-    "prettier.printWidth": 150,
+    "prettier.printWidth": 120,
     "prettier.tabWidth": 4,
     "prettier.useTabs": true,
     "prettier.withNodeModules": true,
