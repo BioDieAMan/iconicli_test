@@ -1,0 +1,123 @@
+.bottom {
+	position: relative;
+	height: 5634px;
+}
+.bottom .background {
+	background-color: #1f0045;
+	position: absolute;
+	width: 100%;
+	height: 271px;
+	/* left: 152px; */
+	top: 5363px;
+}
+.bottom .contact {
+	position: absolute;
+	width: 57px;
+	height: 19px;
+	left: 100px;
+	top: 5431px;
+
+	font-weight: 700;
+
+	color: #ffffff;
+}
+
+.bottom .email {
+	position: absolute;
+	width: 128px;
+	height: 19px;
+	left: 100px;
+	top: 5458px;
+
+	color: #ffffff;
+}
+
+.bottom img {
+	position: absolute;
+	top: 97.67%;
+	bottom: 1.9%;
+}
+
+.bottom .title {
+	position: absolute;
+	left: 41.07%;
+	right: 41.07%;
+	top: 96.29%;
+	bottom: 2.54%;
+}
+
+.bottom .terms {
+	position: absolute;
+	width: 114px;
+	height: 14px;
+	left: 100px;
+	top: 5576px;
+
+	font-size: 12px;
+	line-height: 14px;
+
+	color: #ffffff;
+}
+
+.bottom .aktiebolag {
+	position: absolute;
+	width: 240px;
+	height: 19px;
+	left: 41%;
+	top: 5572px;
+
+	color: #ffffff;
+}
+
+.bottom .address {
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 0px;
+
+	position: absolute;
+	width: 315px;
+	height: 54px;
+    right:97px;
+	top: 5423px;
+}
+.bottom .address .title {
+	position: absolute;
+	width: 51px;
+	height: 19px;
+	left: 260px;
+	top: 0px;
+	font-weight:700;
+	/* font-size: 14.6px; */
+	color: #ffffff;
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	/* margin: 16px 0px; */
+}
+.bottom .address .content {
+	position: absolute;
+	width: 340px;
+	height: 19px;
+	left: 0px;
+	top: 35px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	/* font-size: 14.6px; */
+	line-height: 19px;
+
+	color: #ffffff;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	/* margin: 16px 0px; */
+}

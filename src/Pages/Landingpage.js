@@ -10,11 +10,11 @@ import HowItWorks from "../components/LandingPage/HowItWorks";
 import Pricing from "../components/LandingPage/Pricing";
 import WhyJoin from "../components/LandingPage/WhyJoin";
 import WhatSay from "../components/LandingPage/WhatSay";
+import BottomInfo from "../components/LandingPage/BottomInfo";
 
 import { Box, Typography } from "@mui/material";
 import { StyledEngineProvider } from "@mui/material/styles";
 
-// import "../utils/css/landingpage.css";
 //TODO:rewrite all the css file into className selector
 //TODO:rewrite all the css file, make the css file as neat as possible
 //TODO:delete the yellow dots and what is title and rewrite it into whatis component
@@ -22,7 +22,7 @@ import { StyledEngineProvider } from "@mui/material/styles";
 const Landingpage = () => {
 	return (
 		<StyledEngineProvider injectFirst>
-			<Box className="landingpages">
+			<Box >
 				<Box className="content">
 					<CreateAccount />
 					<YellowDots props={{ left: "145px", top: "765px" }} />
@@ -32,7 +32,8 @@ const Landingpage = () => {
 					<HowItWorks />
 					<Pricing />
 					<WhyJoin />
-					<WhatSay/>
+					<WhatSay />
+					<BottomInfo/>
 				</Box>
 				<Navbar />
 			</Box>
