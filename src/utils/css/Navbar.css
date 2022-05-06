@@ -1,5 +1,5 @@
 .NavbarHeader {
-    position:absolute;
+    position:fixed;
     width: 90%;
     height: 41px;
     left: 5%;
