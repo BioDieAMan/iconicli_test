@@ -4,11 +4,11 @@ import { Box, Typography, Button } from "@mui/material";
 
 import YellowDots from "./YellowDots";
 
-import "../utils/css/howitworks.css";
+import "../../utils/css/howitworks.css";
 
-import Clients from "../utils/images/Clients.png";
-import Models from "../utils/images/Models.png";
-import Yinyang from "../utils/images/Yin_yangCOLOR1.png";
+import Clients from "../../utils/images/Clients.png";
+import Models from "../../utils/images/Models.png";
+import Yinyang from "../../utils/images/Yin_yangCOLOR1.png";
 //TODO: convert the png files to svg files
 
 const HowItWorks = () => {

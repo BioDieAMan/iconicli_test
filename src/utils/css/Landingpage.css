@@ -32,3 +32,13 @@
     left:0px;
     top:41px;
 } */
+
+.MuiTypography-root{
+    font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #1f0045;
+	text-align: left;
+}

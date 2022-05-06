@@ -2,9 +2,9 @@ import React from "react";
 import { StyledEngineProvider } from '@mui/material/styles';
 import { Box, Typography, Button } from "@mui/material";
 
-import pexelsahmedsatti from "../utils/images/pexels-ahmed-satti-3223552.jpg";
+import pexelsahmedsatti from "../../utils/images/pexels-ahmed-satti-3223552.jpg";
 
-import "../utils/css/findbook.css";
+import "../../utils/css/findbook.css";
 
 const Frame5 = {
     textAlign: "left",

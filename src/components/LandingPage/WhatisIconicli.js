@@ -4,12 +4,12 @@ import { Box, Typography, Button } from "@mui/material";
 
 import PurpleCarousel from "./PurpleCarousel";
 
-import "../utils/css/whatisiconicli.css";
-import pexelstimamiroshnichenko from "../utils/images/pexels-tima-miroshnichenko-7206527.jpg";
-import Arrow10 from "../utils/images/Arrow10.png";
-import Ellipse266 from "../utils/images/Ellipse266.png";
-import Arrow9 from "../utils/images/Arrow9.png";
-import Ellipse267 from "../utils/images/Ellipse267.png";
+import "../../utils/css/whatisiconicli.css";
+import pexelstimamiroshnichenko from "../../utils/images/pexels-tima-miroshnichenko-7206527.jpg";
+import Arrow10 from "../../utils/images/Arrow10.png";
+import Ellipse266 from "../../utils/images/Ellipse266.png";
+import Arrow9 from "../../utils/images/Arrow9.png";
+import Ellipse267 from "../../utils/images/Ellipse267.png";
 
 const WhatisIconicli = ({ props }) => {
     return (//TODO: make the yellow dots and title involved

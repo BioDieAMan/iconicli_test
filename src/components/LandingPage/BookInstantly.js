@@ -5,7 +5,7 @@ import { Box, Typography, Button } from "@mui/material";
 import YellowDots from "./YellowDots";
 import ModelInfo from "./ModelInfo";
 
-import "../utils/css/bookinstantly.css"
+import "../../utils/css/bookinstantly.css";
 
 //TODO: add short line at the bottom of the box
 const BookInstantly = () => {

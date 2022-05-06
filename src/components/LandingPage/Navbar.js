@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Box, Typography, Button } from "@mui/material";
 
-import ICONICLI_LOGO from "../utils/images/ICONICLI_LOGO.png";
-import "../utils/css/navbar.css";
+import ICONICLI_LOGO from "../../utils/images/ICONICLI_LOGO.png";
+import "../../utils/css/navbar.css";
 
 const typostyle = {
 	position: "static",

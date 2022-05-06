@@ -2,9 +2,9 @@ import React from "react";
 
 import { Box, Typography, Button } from "@mui/material";
 
-import pexelsrodnaeproductions from "../utils/images/pexels-rodnae-productions-7239878.png"
+import pexelsrodnaeproductions from "../../utils/images/pexels-rodnae-productions-7239878.png";
 
-import "../utils/css/bookinstantly.css"
+import "../../utils/css/bookinstantly.css";
 
 const ModelInfo = ({props}) => {
     return (

@@ -2,7 +2,7 @@ import React from "react";
 import { StyledEngineProvider } from "@mui/material/styles";
 import { Box, Typography, Button } from "@mui/material";
 
-import "../utils/css/purplecarousel.css";
+import "../../utils/css/purplecarousel.css";
 
 //TODO: use carousel component in React and rewrite the component
 

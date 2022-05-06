@@ -3,10 +3,10 @@ import { Box, Typography, Button } from "@mui/material";
 
 import YellowDots from "./YellowDots";
 
-import "../utils/css/pricing.css";
+import "../../utils/css/pricing.css";
 
-import ForClients from "../utils/images/ForClients.svg";
-import ForModels from "../utils/images/ForModels.svg";
+import ForClients from "../../utils/images/ForClients.svg";
+import ForModels from "../../utils/images/ForModels.svg";
 
 const Pricing = () => {
 	return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
-import "../utils/css/yellowdots.css";
+import "../../utils/css/yellowdots.css";
 const YellowDots = ({ props }) => {
     return (
         <React.Fragment>

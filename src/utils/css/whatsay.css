@@ -1,0 +1,129 @@
+.whatsay .title {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: flex-start;
+	padding: 0px;
+
+	position: absolute;
+	width: 430px;
+	height: 70px;
+	left: 144px;
+	top: 4833px;
+}
+
+.whatsay .title .text {
+	position: absolute;
+	width: 440px;
+	height: 42px;
+	left: 0px;
+	top: 28px;
+
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 42px;
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	/* margin: 22px 0px; */
+}
+
+.whatsay .content {
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+
+	position: absolute;
+	width: 1062px;
+	height: 210px;
+	left: 152px;
+	top: 4993px;
+}
+
+.whatsay .kai {
+	position: absolute;
+	width: 458px;
+	height: 210px;
+	left: 0px;
+	top: 0px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	/* margin: 0px 167px; */
+}
+
+.whatsay .emelie {
+	position: absolute;
+	width: 437px;
+	height: 210px;
+	left: 625px;
+	top: 0px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	/* margin: 0px 167px; */
+}
+
+.whatsay .rect {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 0px;
+	top: 10px;
+
+	background: #8c52ff;
+}
+
+.whatsay img {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 10px;
+	top: 0px;
+}
+
+.whatsay .nameage {
+	position: absolute;
+	width: 85px;
+	height: 30px;
+	left: 230px;
+	top: 0px;
+
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	/* identical to box height */
+
+	color: #1f0045;
+}
+
+.whatsay .content .title {
+	position: absolute;
+	width: 220px;
+	height: 19px;
+	left: 230px;
+	top: 30px;
+	font-weight: 700;
+}
+
+.whatsay .content .desc {
+	position: absolute;
+	width: 255px;
+	height: 76px;
+	left: 230px;
+	top: 63px;
+}

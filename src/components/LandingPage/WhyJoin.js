@@ -4,13 +4,13 @@ import { Box, Button, Typography } from "@mui/material";
 import YellowDots from "./YellowDots";
 import PurpleCarousel from "./PurpleCarousel";
 
-import "../utils/css/whyjoin.css";
+import "../../utils/css/whyjoin.css";
 
-import model from "../utils/images/pexels-joshua-mcknight-3290250.png";
-import client from "../utils/images/pexels-antoni-shkraba-7091841.png";
-import GenderEquality from "../utils/images/GenderEquality.svg";
-import DecentWork from "../utils/images/DecentWork.svg";
-import Reduced from "../utils/images/ReducedInequalities.svg";
+import model from "../../utils/images/pexels-joshua-mcknight-3290250.png";
+import client from "../../utils/images/pexels-antoni-shkraba-7091841.png";
+import GenderEquality from "../../utils/images/GenderEquality.svg";
+import DecentWork from "../../utils/images/DecentWork.svg";
+import Reduced from "../../utils/images/ReducedInequalities.svg";
 
 export default class WhyJoin extends Component {
 	render() {
