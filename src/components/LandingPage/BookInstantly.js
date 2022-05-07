@@ -8,6 +8,7 @@ import ModelInfo from "./ModelInfo";
 import "../../utils/css/bookinstantly.css";
 
 //TODO: add short line at the bottom of the box
+//TODO: add hover attribute to view
 const BookInstantly = () => {
     return (
         <>

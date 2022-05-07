@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -15,11 +14,12 @@ function App() {
             <BrowserRouter >
                 <Routes history={history} >
                     <Route exact path="/" element={<Landingpage />} />
-                    <Route path="/login" element={<Loginpage />} />
+                    <Route path={"/login"||"/login-empty"||"/loging-error"||"/login-preload"} element={<Loginpage />}/>
                     <Route path="/register" element={<Registerpage />} />
                 </Routes>
             </BrowserRouter>
         </div>
     );
 }
+
 export default App;

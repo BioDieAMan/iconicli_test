@@ -23,7 +23,7 @@ const Landingpage = () => {
 	return (
 		<StyledEngineProvider injectFirst>
 			<Box >
-				<Box className="content">
+				<Box>
 					<CreateAccount />
 					<YellowDots props={{ left: "145px", top: "765px" }} />
 					<Typography className="whatisiconicli">What is ICONICLI?</Typography>

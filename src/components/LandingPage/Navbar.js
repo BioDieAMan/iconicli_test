@@ -84,7 +84,9 @@ class Navbar extends Component {
 		return (
 			<Box className="NavbarHeader">
 				<Box className="NavbarRectangle"></Box>
-				<img src={ICONICLI_LOGO} className="LandingLogo" />
+				<Button className="LandingLogo" component={Link} to="/" onClick={() => this.setPath("/")}>
+					<img src={ICONICLI_LOGO} className="LandingLogoimg" />
+				</Button>
 				<Box className="NavbarMenu">
 					<Typography
 						style={typostyle}

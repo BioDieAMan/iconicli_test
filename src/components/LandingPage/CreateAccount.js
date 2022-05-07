@@ -6,6 +6,8 @@ import pexelsahmedsatti from "../../utils/images/pexels-ahmed-satti-3223552.jpg"
 
 import "../../utils/css/findbook.css";
 
+//TODO: add hover attribute in buttons
+
 const Frame5 = {
     textAlign: "left",
     position: "static",
