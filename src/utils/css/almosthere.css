@@ -1,0 +1,91 @@
+.almosthere {
+}
+
+.almosthere .text {
+	position: absolute;
+	width: 181px;
+	height: 28px;
+	left: 841px;
+	top: 236px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #000000;
+}
+
+.almosthere .error {
+	position: absolute;
+	width: 200px;
+	height: 14px;
+	left: 763px;
+	top: 306px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	/* identical to box height */
+
+	color: #ff0000;
+}
+
+.almosthere .name {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 16px 16px 16px 24px;
+
+	position: absolute;
+	width: 320px;
+	height: 56px;
+	left: 763px;
+	top: 328px;
+
+	background: #ece3ff;
+	border-radius: 8px;
+}
+
+.almosthere .email {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 16px 16px 16px 24px;
+
+	position: absolute;
+	width: 320px;
+	height: 56px;
+	left: 762px;
+	top: 400px;
+
+	background: #ece3ff;
+	border-radius: 8px;
+}
+
+.almosthere .agree {
+	position: absolute;
+	width: 400px;
+	height: 34px;
+	left: 780px;
+	top: 466px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+
+	color: #000000;
+}
+
+.almosthere img {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 1043px;
+	top: 343px;
+}
