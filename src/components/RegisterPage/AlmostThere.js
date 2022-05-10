@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Box, Typography, Button, Input, Checkbox } from "@mui/material";
-import { CheckBox } from "@mui/icons-material";
 
 import "../../utils/css/almosthere.css";
 
