@@ -1,3 +1,14 @@
+.MuiTypography-root {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #1f0045;
+	text-align: left;
+	text-transform: "none";
+}
+
 .registerpage {
 	position: relative;
 	/* width: 1366px; */
@@ -6,7 +17,7 @@
 	background: #f3f3f3;
 }
 
-.registerpage .rect {
+.registerpage .rect1 {
 	position: absolute;
 	width: 480px;
 	height: 768px;
@@ -58,175 +69,8 @@
 	color: #ffffff;
 }
 
-.registerpage .chooseicon {
-	position: absolute;
-	width: 56px;
-	height: 56px;
-	left: 698px;
-	top: 56px;
-}
-
-.registerpage .choose {
-	position: absolute;
-	width: 450px;
-	height: 48px;
-	left: 700px;
-	top: 142px;
-
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 700;
-	font-size: 32px;
-	line-height: 48px;
-	/* identical to box height */
-
-	color: #1f0045;
-}
-
-.registerpage .enable {
-	position: absolute;
-	width: 411px;
-	height: 24px;
-	left: 700px;
-	top: 214px;
-
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
-	/* identical to box height */
-
-	color: #6c6c6c;
-}
-
-.registerpage .model {
-	position: absolute;
-	width: 447px;
-	height: 104px;
-	left: 700px;
-	top: 302px;
-}
-
-.registerpage .model .modelicon {
-	position: absolute;
-	width: 72px;
-	height: 64px;
-	left: 40px;
-	top: 20px;
-}
-
-.registerpage .model .rect {
-	box-sizing: border-box;
-
-	position: absolute;
-	width: 447px;
-	height: 104px;
-	left: 0px;
-	top: 0px;
-
-	background: #ded3f5;
-	border: 3px solid #8c52ff;
-	border-radius: 8px;
-}
-
-.registerpage .model .choice {
-	position: absolute;
-	width: 134px;
-	height: 44px;
-	left: 158px;
-	top: 15px;
-
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 60px;
-	letter-spacing: 2px;
-
-	color: #1f0045;
-}
-
-.registerpage .model .star {
-	position: absolute;
-	width: 109px;
-	height: 18px;
-	left: 159px;
-	top: 66px;
-
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 700;
-	font-size: 12px;
-	line-height: 18px;
-	/* identical to box height */
-
-	color: #1f0045;
-}
-
-.registerpage .client {
-	position: absolute;
-	width: 447px;
-	height: 104px;
-	left: 700px;
-	top: 428px;
-}
-
-.registerpage .client .rect {
-	position: absolute;
-	width: 447px;
-	height: 104px;
-	left: 0px;
-	top: 0px;
-
-	background: #ffffff;
-	border-radius: 8px;
-}
-
-.registerpage .client .modelicon {
-	position: absolute;
-	width: 72px;
-	height: 64px;
-	left: 40px;
-	top: 20px;
-}
-
-.registerpage .client .choice {
-	position: absolute;
-	width: 134px;
-	height: 44px;
-	left: 158px;
-	top: 15px;
-
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 60px;
-	letter-spacing: 2px;
-
-	color: #1f0045;
-}
-
-.registerpage .client .star {
-	position: absolute;
-	width: 109px;
-	height: 18px;
-	left: 159px;
-	top: 66px;
-
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 700;
-	font-size: 12px;
-	line-height: 18px;
-	/* identical to box height */
-
-	color: #1f0045;
-}
-
 .registerpage .nextstep {
-	display: flex;
+	/* display: flex; */
 	flex-direction: row;
 	align-items: flex-start;
 	padding: 0px;
@@ -262,26 +106,77 @@
 	margin: 0px 0px;
 }
 
-.registerpage .nextstep .text{
-    position: absolute;
-width: 120px;
-height: 28px;
-left: 25px;
-top: 16px;
+.registerpage .nextstep .box:hover{
+	box-shadow: -5px 5px 15px #1F0045;
+}
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
+.registerpage .nextstep .box:disabled {
+	box-sizing: border-box;
 
-color: #FFFFFF;
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 16px 32px;
+
+	position: absolute;
+	left: 0%;
+	right: -0.6%;
+	top: 0%;
+	bottom: 0%;
+
+	background-color: transparent;
+	border: 1px solid #1f0045;
+	border-radius: 8px;
+}
+
+.registerpage .nextstep .box:disabled .text{
+	position: absolute;
+	width: 167px;
+	height: 28px;
+	left: 0px;
+	top: 16px;
+
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: rgba(31, 0, 69, 0.5);
 
 
-/* Inside auto layout */
+	/* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
-/* margin: 0px 10px; */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	/* margin: 0px 10px; */
+}
+
+.registerpage .nextstep .text {
+	position: absolute;
+	width: 167px;
+	height: 32px;
+	left: 0px;
+	top: 16px;
+	text-align: center;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #ffffff;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	/* margin: 0px 10px; */
 }

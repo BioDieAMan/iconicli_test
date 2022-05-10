@@ -1,0 +1,179 @@
+
+.registerpage .chooseicon {
+	position: absolute;
+	width: 56px;
+	height: 56px;
+	left: 698px;
+	top: 56px;
+}
+
+.registerpage .choose {
+	position: absolute;
+	width: 450px;
+	height: 48px;
+	left: 700px;
+	top: 142px;
+
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 48px;
+	/* identical to box height */
+
+	color: #1f0045;
+}
+
+.registerpage .enable {
+	position: absolute;
+	width: 411px;
+	height: 24px;
+	left: 700px;
+	top: 214px;
+
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	/* identical to box height */
+
+	color: #6c6c6c;
+}
+
+.registerpage .model {
+	position: absolute;
+	width: 447px;
+	height: 104px;
+	left: 700px;
+	top: 302px;
+	border-radius: 8px;
+    /* padding: 1px 1px 1px 1px;
+    margin: 1px 1px 1px 1px; */
+}
+
+.registerpage .model .modelicon {
+	position: absolute;
+	width: 72px;
+	height: 64px;
+	left: 40px;
+	top: 20px;
+}
+
+.registerpage .model .rect {
+	box-sizing: border-box;
+	position: absolute;
+	width: 447px;
+	height: 104px;
+	left: 0px;
+	top: 0px;
+    background:#ffffff;
+	border-radius: 8px;
+}
+
+.registerpage .model .rect:hover{
+
+	background: #ded3f5;
+	border: 3px solid #8c52ff;
+}
+
+.registerpage .model .choice {
+	position: absolute;
+	width: 134px;
+	height: 44px;
+	left: 158px;
+	top: 15px;
+
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 60px;
+	letter-spacing: 2px;
+
+	color: #1f0045;
+}
+
+.registerpage .model .star {
+	position: absolute;
+	width: 109px;
+	height: 18px;
+	left: 159px;
+	top: 66px;
+
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 18px;
+	/* identical to box height */
+
+	color: #1f0045;
+}
+
+.registerpage .client {
+	position: absolute;
+	width: 447px;
+	height: 104px;
+	left: 700px;
+	top: 428px;
+}
+
+.registerpage .client .rect {
+	box-sizing: border-box;
+	position: absolute;
+	width: 447px;
+	height: 104px;
+	left: 0px;
+	top: 0px;
+    background:#ffffff;
+	border-radius: 8px;
+}
+
+.registerpage .client .rect:hover{
+
+	background: #ded3f5;
+	border: 3px solid #8c52ff;
+}
+
+.registerpage .client .modelicon {
+	position: absolute;
+	width: 72px;
+	height: 64px;
+	left: 40px;
+	top: 20px;
+}
+
+.registerpage .client .choice {
+	position: absolute;
+	width: 134px;
+	height: 44px;
+	left: 158px;
+	top: 15px;
+
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 60px;
+	letter-spacing: 2px;
+
+	color: #1f0045;
+}
+
+.registerpage .client .star {
+	position: absolute;
+	width: 109px;
+	height: 18px;
+	left: 159px;
+	top: 66px;
+
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 18px;
+	/* identical to box height */
+
+	color: #1f0045;
+}
