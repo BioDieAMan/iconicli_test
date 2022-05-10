@@ -1,7 +1,7 @@
 .login {
 	position: relative;
-	width: 1366px;
-	height: 768px;
+	/* width: 1366px; */
+	height: 710px;
 
 	background: #f3f3f3;
 }
@@ -52,6 +52,21 @@
 		rgba(140, 82, 255, 0.16) 100%
 	);
 	filter: blur(50px);
+}
+
+.login .incorrect{
+	position: absolute;
+width: 260px;
+height: 14px;
+left: 871px;
+top: 212px;
+
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #FF0000;
 }
 
 .login .email {

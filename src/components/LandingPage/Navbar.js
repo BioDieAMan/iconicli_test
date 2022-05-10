@@ -74,17 +74,26 @@ const Navbar_Signup_text = {
 class Navbar extends Component {
 	constructor(props) {
 		super(props);
-		this.setPath = {
-			path: window.location.pathname,
-		};
-	}
+		this.state = {
+			path:window.location.pathname
+		}
+		}
+		// this.setPath = {
+		// 	path: window.location.pathname,
+		// };
+// }
+	setPath = (e) => {
+		this.setState({
+			path: e,
+		});
+	};
 
 	render() {
 		// const [path, setPath] = useState(window.location.pathname);
 		return (
 			<Box className="NavbarHeader">
 				<Box className="NavbarRectangle"></Box>
-				<Button className="LandingLogo" component={Link} to="/" onClick={() => this.setPath("/")}>
+				<Button className="LandingLogo" component={Link} to="/" onClick={()=>this.setPath("/")}>
 					<img src={ICONICLI_LOGO} className="LandingLogoimg" />
 				</Button>
 				<Box className="NavbarMenu">
@@ -148,7 +157,7 @@ class Navbar extends Component {
 						component={Link}
 						to="/login"
 						style={Navbar_Login_text}
-						onClick={() => this.setPath("/login")}>
+						onClick={()=>this.setPath("/login")}>
 						Log in
 					</Button>
 				</Box>
@@ -157,7 +166,7 @@ class Navbar extends Component {
 						component={Link}
 						to="/register"
 						style={Navbar_Signup_text}
-						onClick={() => this.setPath("/register")}>
+						onClick={()=>this.setPath("/register")}>
 						Sign up
 					</Button>
 				</Box>

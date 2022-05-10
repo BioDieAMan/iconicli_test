@@ -22,7 +22,7 @@ import { StyledEngineProvider } from "@mui/material/styles";
 const Landingpage = () => {
 	return (
 		<StyledEngineProvider injectFirst>
-			<Box >
+			<Box className="landingpage">
 				<Box>
 					<CreateAccount />
 					<YellowDots props={{ left: "145px", top: "765px" }} />

@@ -1,13 +1,12 @@
 
 
-/* .landingpages .content{
-    position: absolute;
-    
-    height: 5593px;
-    width:1366px;
-    left:0px;
-    top:41px;
-} */
+.landingpage{
+    /* position: absolute; */
+    /* left: 0px; */
+    height: 5634px;
+
+    background-color: #f3f3f3;
+}
 
 .MuiTypography-root{
     font-family: "Roboto";
@@ -21,11 +20,10 @@
 
 
 
-body{    /* position: absolute; */
-    /* width:100%; */
-    height: 5634px;
+body{    
+    /* height: 5634px;
 
-    background: #f3f3f3;
+    background-color: #f3f3f3; */
 }
 
 .whatisiconicli {

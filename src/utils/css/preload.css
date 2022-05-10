@@ -1,0 +1,116 @@
+.preload {
+	position: relative;
+    /* width: 1366px; */
+    height: 768px;
+
+    background: #F3F3F3;
+}
+
+.preload .ellipse{
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    left: 628px;
+    top: 309px;
+}
+
+.preload .ellipse1 {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 628px;
+	top: 309px;
+    border-radius: 50%;
+	background: rgba(140, 82, 255, 0.2);
+}
+
+.preload .ellipse2 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 665px;
+	top: 311px;
+    border-radius: 50%;
+
+	background: rgba(140, 82, 255, 0.2);
+}
+
+.preload .ellipse3 {
+	position: absolute;
+	width: 16px;
+    border-radius: 50%;
+	height: 16px;
+	left: 698px;
+	top: 313px;
+
+	background: rgba(140, 82, 255, 0.2);
+}
+
+.preload .ellipse4 {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 725px;
+	top: 315px;
+    border-radius: 50%;
+
+	background: rgba(140, 82, 255, 0.2);
+}
+
+.preload .ellipse5 {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+    border-radius: 50%;
+	left: 726px;
+	top: 316px;
+
+	background: #1f0045;
+}
+.preload .ellipse6 {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 701px;
+    border-radius: 50%;
+	top: 316px;
+
+	background: #1f0045;
+}
+.preload .ellipse7 {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 670px;
+	top: 316px;
+    border-radius: 50%;
+
+	background: #1f0045;
+}
+.preload .ellipse8 {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 635px;
+	top: 316px;
+    border-radius: 50%;
+
+	background: #1f0045;
+}
+
+.preload .text {
+	position: absolute;
+	width: 96px;
+	height: 19px;
+	left: 650px;
+	top: 337px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
+
+	color: #000000;
+}
