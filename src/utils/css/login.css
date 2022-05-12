@@ -54,19 +54,18 @@
 	filter: blur(50px);
 }
 
-.login .incorrect{
+.login .incorrect {
 	position: absolute;
-width: 260px;
-height: 14px;
-left: 871px;
-top: 212px;
+	width: 260px;
+	height: 14px;
+	left: 871px;
+	top: 212px;
 
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
+	font-size: 12px;
+	line-height: 14px;
+	/* identical to box height */
 
-
-color: #FF0000;
+	color: #ff0000;
 }
 
 .login .email {
@@ -199,7 +198,7 @@ color: #FF0000;
 	border-radius: 8px;
 }
 
-.login .button:hover{
+.login .button:hover {
 	box-shadow: -5px 5px 22px rgba(140, 82, 255, 0.5);
 }
 
@@ -207,7 +206,7 @@ color: #FF0000;
 	position: absolute;
 	width: 79px;
 	height: 16px;
-    text-align: center;
+	text-align: center;
 
 	font-family: "Roboto";
 	font-style: normal;
@@ -289,7 +288,7 @@ color: #FF0000;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
-    font-variant:small-caps;
+	font-variant: small-caps;
 	line-height: 16px;
 
 	color: #000000;
@@ -317,45 +316,444 @@ color: #FF0000;
 	top: 8px;
 }
 
-.login .google-text{
-    position: absolute;
-    width: 136px;
-    height: 16px;
-    left: 935px;
-    top: 525px;
+.login .google-text {
+	position: absolute;
+	width: 136px;
+	height: 16px;
+	left: 935px;
+	top: 525px;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: flex-end;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	display: flex;
+	align-items: flex-end;
 
-    color: #000000;
+	color: #000000;
 }
 
-.login .facebook-text{
-    position: absolute;
-width: 152px;
-height: 16px;
-left: 935px;
-top: 589px;
+.login .facebook-text {
+	position: absolute;
+	width: 152px;
+	height: 16px;
+	left: 935px;
+	top: 589px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-display: flex;
-align-items: flex-end;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	display: flex;
+	align-items: flex-end;
 
-color: #000000;
+	color: #000000;
 }
 
-.login .google:hover{
+.login .google:hover {
 	box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.25);
 }
-.login .facebook:hover{
+.login .facebook:hover {
 	box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 700px) {
+	.login {
+	}
+	.login .topbar {
+		position: absolute;
+		width: 320px;
+		height: 40px;
+		left: 20px;
+		top: 45px;
+	}
+	.login .topbar img {
+		position: absolute;
+		left: 0%;
+		right: 60%;
+		top: 30%;
+		bottom: 30%;
+	}
+	.login .topbar .light {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 8px 24px;
+		gap: 10px;
+
+		position: absolute;
+		left: 55.31%;
+		right: 15.62%;
+		top: 0%;
+		bottom: 0%;
+
+		background: #ffffff;
+		border-radius: 38px;
+	}
+	.login .topbar .light .text {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 19px;
+		text-align: center;
+
+		color: #1f0045;
+		position: static;
+		width: 65px;
+		height: 19px;
+		left: 0px;
+		top: 0px;
+
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+	}
+	.login .topbar .line1 {
+		position: absolute;
+		left: 90.62%;
+		right: 0%;
+		top: 32%;
+		bottom: 67.5%;
+
+		background-color: #000000;
+
+		border: 1px solid #000000;
+	}
+	.login .topbar .line2 {
+		position: absolute;
+		left: 90.62%;
+		right: 0%;
+		top: 52%;
+		bottom: 47.5%;
+
+		background-color: #000000;
+
+		border: 1px solid #000000;
+	}
+	.login .topbar .line3 {
+		position: absolute;
+		left: 90.62%;
+		right: 0%;
+		top: 72%;
+		bottom: 27.5%;
+
+		background-color: #000000;
+		border: 1px solid #000000;
+	}
+	.login .intro {
+		position: absolute;
+		width: 296px;
+		height: 27px;
+		left: 40px;
+		top: 138px;
+
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 27px;
+		/* identical to box height */
+
+		color: #000000;
+	}
+	.login .incorrect {
+		position: absolute;
+		width: 246px;
+		height: 14px;
+		left: 20px;
+		top: 180px;
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 14px;
+		/* identical to box height */
+
+		color: #ff0000;
+	}
+	.login .email {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding: 16px 16px 16px 24px;
+		gap: 10px;
+
+		position: absolute;
+		width: 320px;
+		height: 56px;
+		left: 20px;
+		top: 197px;
+
+		background: #ece3ff;
+		border-radius: 8px;
+	}
+
+	.login .email input::-webkit-input-placeholder {
+		position: absolute;
+		width: 91px;
+		height: 19px;
+		/* left: 24px;
+	top: 18.5px; */
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		/* identical to box height */
+
+		color: rgba(31, 0, 69, 0.58);
+
+		/* Inside auto layout */
+		/* display: flex; */
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+		margin: 2px 0px;
+	}
+
+	.login input:-webkit-autofill {
+		-webkit-box-shadow: inset 0 0 0 1000px #ece3ff;
+	}
+
+	.login .email:hover {
+		border: 1px solid #8c52ff;
+	}
+
+	.login .password {
+		/* Auto layout */
+
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding: 16px 16px 16px 24px;
+		gap: 10px;
+
+		position: absolute;
+		width: 319px;
+		height: 51px;
+		left: 20px;
+		top: 264px;
+
+		background: #ece3ff;
+		border-radius: 8px;
+	}
+
+	.login .password input::-webkit-input-placeholder {
+		position: absolute;
+		width: 71px;
+		height: 19px;
+		/* left: 24px;
+	top: 16px; */
+
+		text-align: inherit;
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		/* identical to box height */
+
+		color: rgba(31, 0, 69, 0.58);
+
+		/* Inside auto layout */
+
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+		margin: 3px 0px;
+	}
+
+	.login .password:hover {
+		border: 1px solid #8c52ff;
+	}
+
+	.login .forgot {
+		position: absolute;
+		width: 163px;
+		height: 16px;
+		left: 197px;
+		top: 323px;
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12.8px;
+		line-height: 16px;
+		text-decoration-line: underline;
+
+		color: #1f0045;
+	}
+
+	.login .button {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 16px 24px;
+		gap: 10px;
+
+		position: absolute;
+		width: 319px;
+		height: 48px;
+		left: 20px;
+		top: 363px;
+
+		background: #8c52ff;
+		box-shadow: -5px 5px 22px rgba(140, 82, 255, 0.5);
+		border-radius: 8px;
+	}
+	.login .button .text {
+		width: 59px;
+		height: 16px;
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 16px;
+
+		color: #ffffff;
+
+		/* Inside auto layout */
+
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+	}
+	.login .continue {
+		/* position: absolute; */
+		width: 291px;
+		height: 14px;
+		/* left: 34px;
+		top: 435px; */
+	}
+	.login .continue .text {
+		position: absolute;
+		width: 95px;
+		height: 14px;
+		left: 138px;
+		top: 435px;
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 14px;
+		/* identical to box height */
+
+		display: flex;
+		align-items: flex-end;
+
+		color: #bbbbbb;
+	}
+	.login .continue .leftline {
+		position: absolute;
+		width: 96px;
+		height: 0px;
+		left: 34px;
+		top: 442px;
+
+		border: 1px solid #bbbbbb;
+	}
+	.login .continue .rightline {
+		position: absolute;
+		width: 96px;
+		height: 0px;
+		left: 229px;
+		top: 442px;
+
+		border: 1px solid #bbbbbb;
+	}
+	.login .google {
+		position: absolute;
+		width: 319px;
+		height: 48px;
+		left: 20px;
+		top: 473px;
+	}
+	.login .google img {
+		position: absolute;
+		width: 32px;
+		height: 32px;
+		left: 8px;
+		top: 8px;
+	}
+	.login .google-text {
+		position: absolute;
+		width: 146px;
+		height: 16px;
+		left: 84px;
+		top: 488px;
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 16px;
+		display: flex;
+		align-items: flex-end;
+
+		color: #000000;
+	}
+	.login .facebook {
+		box-sizing: border-box;
+
+		position: absolute;
+		width: 319px;
+		height: 48px;
+		left: 20px;
+		top: 537px;
+
+		background: #ffffff;
+		border: 1px solid #ffffff;
+		border-radius: 8px;
+	}
+	.login .facebook img {
+		position: absolute;
+		width: 32px;
+		height: 32px;
+		left: 8px;
+		top: 8px;
+	}
+	.login .facebook-text {
+		position: absolute;
+		width: 146px;
+		height: 16px;
+		left: 84px;
+		top: 552px;
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 16px;
+		display: flex;
+		align-items: flex-end;
+
+		color: #000000;
+	}
+	.login .signup {
+		position: absolute;
+		width: 259px;
+		height: 60px;
+		left: 50px;
+		top: 617px;
+
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 166.5%;
+		/* or 30px */
+
+		text-align: center;
+
+		color: #000000;
+	}
 }

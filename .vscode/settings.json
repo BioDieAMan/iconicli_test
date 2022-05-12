@@ -9,5 +9,6 @@
     "reactSnippets.settings.prettierEnabled": true,
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
-    "javascript.format.insertSpaceAfterSemicolonInForStatements": true
+    "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+    "editor.formatOnSave": true
 }

@@ -181,3 +181,206 @@
 		/* margin: 0px 10px; */
 	}
 }
+
+@media screen and (max-width: 700px) {
+	.registerpage {
+		position: relative;
+		/* width: 1366px; */
+		height: 768px;
+		background: #f3f3f3;
+	}
+	.registerpage .topbar {
+		position: absolute;
+		width: 320px;
+		height: 40px;
+		left: 20px;
+		top: 45px;
+	}
+	.registerpage .topbar img {
+		position: absolute;
+		left: 0%;
+		right: 60%;
+		top: 30%;
+		bottom: 30%;
+	}
+	.registerpage .topbar .light {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 8px 24px;
+		gap: 10px;
+
+		position: absolute;
+		left: 55.31%;
+		right: 15.62%;
+		top: 0%;
+		bottom: 0%;
+
+		background: #ffffff;
+		border-radius: 38px;
+	}
+	.registerpage .topbar .light .text {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 19px;
+		text-align: center;
+
+		color: #1f0045;
+		position: static;
+		width: 65px;
+		height: 19px;
+		left: 0px;
+		top: 0px;
+
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+	}
+	.registerpage .topbar .line1 {
+		position: absolute;
+		left: 90.62%;
+		right: 0%;
+		top: 32%;
+		bottom: 67.5%;
+
+		background-color: #000000;
+
+		border: 1px solid #000000;
+	}
+	.registerpage .topbar .line2 {
+		position: absolute;
+		left: 90.62%;
+		right: 0%;
+		top: 52%;
+		bottom: 47.5%;
+
+		background-color: #000000;
+
+		border: 1px solid #000000;
+	}
+	.registerpage .topbar .line3 {
+		position: absolute;
+		left: 90.62%;
+		right: 0%;
+		top: 72%;
+		bottom: 27.5%;
+
+		background-color: #000000;
+		border: 1px solid #000000;
+	}
+	.registerpage .nextstep {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 0px;
+
+		position: absolute;
+		width: 168px;
+		height: 60px;
+		left: 96px;
+		top: 520px;
+	}
+	.registerpage .nextstep .box {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 16px 32px;
+		gap: 10px;
+
+		width: 168px;
+		height: 60px;
+
+		background: #1f0045;
+		border-radius: 8px;
+		position: absolute;
+		left: 0%;
+		right: -0.6%;
+		top: 0%;
+		bottom: 0%;
+
+		/* Inside auto layout */
+
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+	}
+	.registerpage .nextstep .box .text {
+		width: 124px;
+		height: 28px;
+		text-align: center;
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 28px;
+
+		color: #ffffff;
+
+		/* Inside auto layout */
+
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+	}
+	.registerpage .nextstep .box:disabled {
+		box-sizing: border-box;
+
+		/* Auto layout */
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 16px 32px;
+
+		position: absolute;
+		left: 0%;
+		right: -0.6%;
+		top: 0%;
+		bottom: 0%;
+
+		background-color: transparent;
+		border: 1px solid #1f0045;
+		border-radius: 8px;
+	}
+
+	.registerpage .nextstep .box:disabled .text {
+		position: absolute;
+		width: 167px;
+		height: 28px;
+		left: 0px;
+		top: 16px;
+
+		text-align: center;
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 28px;
+
+		color: rgba(31, 0, 69, 0.5);
+
+		/* Inside auto layout */
+
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+		/* margin: 0px 10px; */
+	}
+
+	.registerpage .back {
+		position: absolute;
+		width: 19px;
+		height: 16px;
+		left: 13px;
+		top: 129.5px;
+		padding: 0px;
+		margin: 0px;
+		min-width: 19px;
+	}
+}

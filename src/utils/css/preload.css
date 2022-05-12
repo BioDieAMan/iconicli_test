@@ -1,17 +1,17 @@
 .preload {
 	position: relative;
-    /* width: 1366px; */
-    height: 768px;
+	/* width: 1366px; */
+	height: 768px;
 
-    background: #F3F3F3;
+	background: #f3f3f3;
 }
 
-.preload .ellipse{
-    position: absolute;
-    width: 109px;
-    height: 24px;
-    left: 628px;
-    top: 309px;
+.preload .ellipse {
+	position: absolute;
+	width: 109px;
+	height: 24px;
+	left: 628px;
+	top: 309px;
 }
 
 .preload .ellipse1 {
@@ -20,7 +20,7 @@
 	height: 24px;
 	left: 628px;
 	top: 309px;
-    border-radius: 50%;
+	border-radius: 50%;
 	background: rgba(140, 82, 255, 0.2);
 }
 
@@ -30,7 +30,7 @@
 	height: 20px;
 	left: 665px;
 	top: 311px;
-    border-radius: 50%;
+	border-radius: 50%;
 
 	background: rgba(140, 82, 255, 0.2);
 }
@@ -38,7 +38,7 @@
 .preload .ellipse3 {
 	position: absolute;
 	width: 16px;
-    border-radius: 50%;
+	border-radius: 50%;
 	height: 16px;
 	left: 698px;
 	top: 313px;
@@ -52,7 +52,7 @@
 	height: 12px;
 	left: 725px;
 	top: 315px;
-    border-radius: 50%;
+	border-radius: 50%;
 
 	background: rgba(140, 82, 255, 0.2);
 }
@@ -61,7 +61,7 @@
 	position: absolute;
 	width: 10px;
 	height: 10px;
-    border-radius: 50%;
+	border-radius: 50%;
 	left: 726px;
 	top: 316px;
 
@@ -72,7 +72,7 @@
 	width: 10px;
 	height: 10px;
 	left: 701px;
-    border-radius: 50%;
+	border-radius: 50%;
 	top: 316px;
 
 	background: #1f0045;
@@ -83,7 +83,7 @@
 	height: 10px;
 	left: 670px;
 	top: 316px;
-    border-radius: 50%;
+	border-radius: 50%;
 
 	background: #1f0045;
 }
@@ -93,12 +93,12 @@
 	height: 10px;
 	left: 635px;
 	top: 316px;
-    border-radius: 50%;
+	border-radius: 50%;
 
 	background: #1f0045;
 }
 
-.preload .text {
+.preload .text1 {
 	position: absolute;
 	width: 96px;
 	height: 19px;
@@ -113,4 +113,192 @@
 	/* identical to box height */
 
 	color: #000000;
+}
+
+@media screen and (max-width: 700px) {
+	.preload {
+	}
+	.preload .topbar {
+		position: absolute;
+		width: 320px;
+		height: 40px;
+		left: 20px;
+		top: 45px;
+	}
+	.preload .topbar img {
+		position: absolute;
+		left: 0%;
+		right: 60%;
+		top: 30%;
+		bottom: 30%;
+	}
+
+	.preload .topbar .light {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 8px 24px;
+		gap: 10px;
+
+		position: absolute;
+		left: 55.31%;
+		right: 15.62%;
+		top: 0%;
+		bottom: 0%;
+
+		background: #ffffff;
+		border-radius: 38px;
+	}
+
+	.preload .topbar .light .text {
+		width: 60px;
+		height: 19px;
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 19px;
+		/* identical to box height */
+
+		color: #1f0045;
+
+		/* Inside auto layout */
+		text-align: center;
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+	}
+
+	.preload .topbar .line1 {
+		position: absolute;
+		left: 90.62%;
+		right: 0%;
+		top: 32.5%;
+		bottom: 67.5%;
+		background-color: #000000;
+		border: 1px solid #000000;
+	}
+	.preload .topbar .line2 {
+		position: absolute;
+		left: 90.62%;
+		right: 0%;
+		top: 52.5%;
+		bottom: 47.5%;
+
+		background-color: #000000;
+		border: 1px solid #000000;
+	}
+	.preload .topbar .line3 {
+		position: absolute;
+		left: 90.62%;
+		right: 0%;
+		top: 72.5%;
+		bottom: 27.5%;
+
+		background-color: #000000;
+		border: 1px solid #000000;
+	}
+
+	.preload .ellipse1 {
+		border-radius: 50%;
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		left: 133px;
+		top: 316px;
+
+		background: #1f0045;
+	}
+
+	.preload .ellipse2 {
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		left: 168px;
+		top: 316px;
+
+		background: #1f0045;
+		border-radius: 50%;
+	}
+
+	.preload .ellipse3 {
+		border-radius: 50%;
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		left: 199px;
+		top: 316px;
+
+		background: #1f0045;
+	}
+
+	.preload .ellipse4 {
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		left: 224px;
+		top: 316px;
+
+		background: #1f0045;
+		border-radius: 50%;
+	}
+
+	.preload .ellipse5 {
+		border-radius: 50%;
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		left: 126px;
+		top: 309px;
+
+		background: rgba(140, 82, 255, 0.2);
+	}
+	.preload .ellipse6 {
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		left: 163px;
+		top: 311px;
+
+		background: rgba(140, 82, 255, 0.2);
+		border-radius: 50%;
+	}
+	.preload .ellipse7 {
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 196px;
+		top: 313px;
+
+		background: rgba(140, 82, 255, 0.2);
+		border-radius: 50%;
+	}
+	.preload .ellipse8 {
+		border-radius: 50%;
+		position: absolute;
+		width: 12px;
+		height: 12px;
+		left: 223px;
+		top: 315px;
+
+		background: rgba(140, 82, 255, 0.2);
+	}
+
+	.preload .text1 {
+		position: absolute;
+		width: 86px;
+		height: 19px;
+		left: 148px;
+		top: 337px;
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+
+		color: #000000;
+	}
 }

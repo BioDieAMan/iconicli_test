@@ -89,7 +89,7 @@ class Navbar extends Component {
 	};
 
 	render() {
-		console.log(isDesktop, isMobile);
+		// console.log(isDesktop,isMobile);
 		if (isDesktop)
 			return (
 				<Box className="NavbarHeader">
