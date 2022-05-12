@@ -191,3 +191,35 @@
 
 	color: #ffffff;
 }
+
+@media screen and (max-width: 700px) {
+	.how {
+	}
+
+	.how .title {
+		position: absolute;
+		left: 11.11%;
+		right: 11.11%;
+		top: 47.11%;
+		bottom: 51.11%;
+
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 36px;
+		text-align: center;
+
+		color: #1f0045;
+	}
+
+	.how img {
+		position: absolute;
+		width: 320px;
+		height: 479px;
+		left: 20px;
+		top: 2004px;
+
+		/* transform: rotate(90deg); */
+	}
+}

@@ -1,123 +1,245 @@
-.bottom {
-	position: relative;
-	height: 5634px;
+@media screen and (min-width: 700px) {
+	.bottom {
+		position: relative;
+		height: 5634px;
+	}
+	.bottom .background {
+		background-color: #1f0045;
+		position: absolute;
+		width: 100%;
+		height: 271px;
+		/* left: 152px; */
+		top: 5363px;
+	}
+	.bottom .contact {
+		position: absolute;
+		width: 57px;
+		height: 19px;
+		left: 100px;
+		top: 5431px;
+
+		font-weight: 700;
+
+		color: #ffffff;
+	}
+
+	.bottom .email {
+		position: absolute;
+		width: 128px;
+		height: 19px;
+		left: 100px;
+		top: 5458px;
+
+		color: #ffffff;
+	}
+
+	.bottom img {
+		position: absolute;
+		top: 97.67%;
+		bottom: 1.9%;
+	}
+
+	.bottom .title {
+		position: absolute;
+		left: 41.07%;
+		right: 41.07%;
+		top: 96.29%;
+		bottom: 2.54%;
+	}
+
+	.bottom .terms {
+		position: absolute;
+		width: 114px;
+		height: 14px;
+		left: 100px;
+		top: 5576px;
+
+		font-size: 12px;
+		line-height: 14px;
+
+		color: #ffffff;
+	}
+
+	.bottom .aktiebolag {
+		position: absolute;
+		width: 240px;
+		height: 19px;
+		left: 41%;
+		top: 5572px;
+
+		color: #ffffff;
+	}
+
+	.bottom .address {
+		/* Auto layout */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-end;
+		padding: 0px;
+
+		position: absolute;
+		width: 315px;
+		height: 54px;
+		right: 97px;
+		top: 5423px;
+	}
+	.bottom .address .title {
+		position: absolute;
+		width: 51px;
+		height: 19px;
+		left: 260px;
+		top: 0px;
+		font-weight: 700;
+		/* font-size: 14.6px; */
+		color: #ffffff;
+		/* Inside auto layout */
+
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+		/* margin: 16px 0px; */
+	}
+	.bottom .address .content {
+		position: absolute;
+		width: 340px;
+		height: 19px;
+		left: 0px;
+		top: 35px;
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 400;
+		/* font-size: 14.6px; */
+		line-height: 19px;
+
+		color: #ffffff;
+
+		/* Inside auto layout */
+
+		flex: none;
+		order: 1;
+		flex-grow: 0;
+		/* margin: 16px 0px; */
+	}
 }
-.bottom .background {
-	background-color: #1f0045;
-	position: absolute;
-	width: 100%;
-	height: 271px;
-	/* left: 152px; */
-	top: 5363px;
-}
-.bottom .contact {
-	position: absolute;
-	width: 57px;
-	height: 19px;
-	left: 100px;
-	top: 5431px;
 
-	font-weight: 700;
+@media screen and (max-width: 700px) {
+	.bottom {
+	}
 
-	color: #ffffff;
-}
+	.bottom .contact {
+		position: absolute;
+		width: 60px;
+		height: 12px;
+		left: 28px;
+		top: 3866px;
 
-.bottom .email {
-	position: absolute;
-	width: 128px;
-	height: 19px;
-	left: 100px;
-	top: 5458px;
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 12px;
+		/* identical to box height, or 86% */
 
-	color: #ffffff;
-}
+		color: #ffffff;
+	}
 
-.bottom img {
-	position: absolute;
-	top: 97.67%;
-	bottom: 1.9%;
-}
+	.bottom .email {
+		position: absolute;
+		width: 106px;
+		height: 12px;
+		left: 28px;
+		top: 3894px;
 
-.bottom .title {
-	position: absolute;
-	left: 41.07%;
-	right: 41.07%;
-	top: 96.29%;
-	bottom: 2.54%;
-}
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		/* identical to box height, or 100% */
 
-.bottom .terms {
-	position: absolute;
-	width: 114px;
-	height: 14px;
-	left: 100px;
-	top: 5576px;
+		color: #ffffff;
+	}
 
-	font-size: 12px;
-	line-height: 14px;
+	.bottom .phone {
+		position: absolute;
+		width: 101px;
+		height: 12px;
+		left: 28px;
+		top: 3922px;
 
-	color: #ffffff;
-}
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		/* identical to box height, or 100% */
 
-.bottom .aktiebolag {
-	position: absolute;
-	width: 240px;
-	height: 19px;
-	left: 41%;
-	top: 5572px;
+		color: #ffffff;
+	}
 
-	color: #ffffff;
-}
+	.bottom .address {
+		position: absolute;
+		width: 239px;
+		height: 12px;
+		left: 28px;
+		top: 3950px;
 
-.bottom .address {
-	/* Auto layout */
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-end;
-	padding: 0px;
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		/* identical to box height, or 100% */
 
-	position: absolute;
-	width: 315px;
-	height: 54px;
-    right:97px;
-	top: 5423px;
-}
-.bottom .address .title {
-	position: absolute;
-	width: 51px;
-	height: 19px;
-	left: 260px;
-	top: 0px;
-	font-weight:700;
-	/* font-size: 14.6px; */
-	color: #ffffff;
-	/* Inside auto layout */
+		color: #ffffff;
+	}
 
-	flex: none;
-	order: 0;
-	flex-grow: 0;
-	/* margin: 16px 0px; */
-}
-.bottom .address .content {
-	position: absolute;
-	width: 340px;
-	height: 19px;
-	left: 0px;
-	top: 35px;
+	.bottom .back {
+		/* position: absolute;
+		width: 360px;
+		height: 300px;
+		left: 0px;
+		top: 3752px; */
+	}
 
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 400;
-	/* font-size: 14.6px; */
-	line-height: 19px;
+	.bottom .back .rect {
+		position: absolute;
+		width: 360px;
+		height: 300px;
+		left: 0px;
+		top: 3752px;
 
-	color: #ffffff;
+		background: #1f0045;
+	}
 
-	/* Inside auto layout */
+	.bottom .back img {
+		position: absolute;
+		left: 26.94%;
+		right: 26.94%;
+		top: 93.46%;
+		bottom: 5.43%;
+	}
 
-	flex: none;
-	order: 1;
-	flex-grow: 0;
-	/* margin: 16px 0px; */
+	.bottom .back .fin {
+		position: absolute;
+		width: 303px;
+		height: 12px;
+		left: calc(50% - 303px / 2 - 0.5px);
+		top: calc(50% - 12px / 2 + 1985px);
+
+		/* Footer JS */
+
+		font-family: "Josefin Sans";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		/* identical to box height, or 100% */
+
+		text-align: center;
+
+		color: #ffffff;
+	}
 }

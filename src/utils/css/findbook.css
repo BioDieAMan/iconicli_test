@@ -1,164 +1,326 @@
 .Findlook_Box {
-    position: absolute;
-    width: 71.5%;
-    height: 360px;
-    left: 14.25%;
-    top: 243px;
+	position: absolute;
+	width: 71.5%;
+	height: 360px;
+	left: 14.25%;
+	top: 243px;
 }
 
 .Findlook_img {
-    position: absolute;
-    width: 353px;
-    height: 353px;
-    top: 0px;
-    right: 0px;
+	position: absolute;
+	width: 353px;
+	height: 353px;
+	top: 0px;
+	right: 0px;
 }
 
 .Findlook_Rectangle {
-    position: absolute;
-    width: 353px;
-    height: 353px;
+	position: absolute;
+	width: 353px;
+	height: 353px;
 
-    top: 7px;
-    right: 8px;
+	top: 7px;
+	right: 8px;
 
-    background: #8c52ff;
+	background: #8c52ff;
 }
 
 .Frame5 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 8px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 8px;
 
-    position: absolute;
-    width: 418px;
-    height: 114px;
-    left: 0px;
-    top: 11px;
+	position: absolute;
+	width: 418px;
+	height: 114px;
+	left: 0px;
+	top: 11px;
 }
 
 .Frame4 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 8px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 8px;
 
-    position: absolute;
-    width: 519px;
-    height: 54px;
-    /* left: 194px; */
-    top: 149px;
+	position: absolute;
+	width: 519px;
+	height: 54px;
+	/* left: 194px; */
+	top: 149px;
 }
 
-.Frame6x{
-    text-align: left;
-    position: static;
-    top: 8px;
-    left: 8px;
-    width: 503px;
-    height: 19px;
+.Frame6x {
+	text-align: left;
+	position: static;
+	top: 8px;
+	left: 8px;
+	width: 503px;
+	height: 19px;
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18.75px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18.75px;
 
-    color: #000000;
+	color: #000000;
 
-    font-family: 'Roboto';
-    flex: none;
-    flex-grow: 0;
-    margin: 0px 10px;
+	font-family: "Roboto";
+	flex: none;
+	flex-grow: 0;
+	margin: 0px 10px;
 }
 
 .Frame6 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 8px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 8px;
 
-    position: absolute;
-    width: 414px;
-    height: 35px;
-    /* left: 194px; */
-    top: 219px;
+	position: absolute;
+	width: 414px;
+	height: 35px;
+	/* left: 194px; */
+	top: 219px;
 }
 
 .createanaccount {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* padding: 16px 32px; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* padding: 16px 32px; */
 
-    position: absolute;
-    width: 350px;
-    height: 60px;
-    left: 10px;
-    top: 283px;
+	position: absolute;
+	width: 350px;
+	height: 60px;
+	left: 10px;
+	top: 283px;
 
-    background: #8c52ff;
-    box-shadow: -5px 5px 22px #8c52ff;
-    border-radius: 8px;
+	background: #8c52ff;
+	box-shadow: -5px 5px 22px #8c52ff;
+	border-radius: 8px;
 }
 
 .createaccountbutton {
-    position: static;
-    width: 350px;
-    height: 28px;
-    left: 32px;
-    top: 16px;
+	position: static;
+	width: 350px;
+	height: 28px;
+	left: 32px;
+	top: 16px;
 
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
 
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+	color: #ffffff;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 10px;
 }
 
 .Createanaccount2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* padding: 16px 32px; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* padding: 16px 32px; */
 
-    position: absolute;
-    width: 208px;
-    height: 41px;
-    right: 87px;
-    top: 656px;
-    /* left: 78.4%;
+	position: absolute;
+	width: 208px;
+	height: 41px;
+	right: 87px;
+	top: 656px;
+	/* left: 78.4%;
     right: 6.37%;
     top: 11.64%;
     bottom: 87.63%; */
 
-    background: #8c52ff;
-    box-shadow: -5px 5px 22px #8c52ff;
-    border-radius: 8px;
-    /* bottom: 87.63%; */
+	background: #8c52ff;
+	box-shadow: -5px 5px 22px #8c52ff;
+	border-radius: 8px;
+	/* bottom: 87.63%; */
 }
 
 .CreateAccountTypo {
-    position: absolute;
-    /* left: 79.87%;
+	position: absolute;
+	/* left: 79.87%;
     right: 8.2%;
     top: 11.84%;
     bottom: 87.82%; */
 
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
 
-    color: #ffffff;
+	color: #ffffff;
+}
+
+@media screen and (max-width: 700px) {
+	.cabox {
+		position: absolute;
+		width: 100%;
+		height: 582px;
+		left: 0px;
+		top: 0px;
+
+		background-image: url("../images/pexels-moblie.jpg");
+	}
+
+	.cabox img {
+		position: absolute;
+		width: 113px;
+		height: 14px;
+		left: 16px;
+		top: 66px;
+
+		/* background: #1f0045; */
+	}
+
+	.cabox .light {
+		/* Auto layout */
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 8px 24px;
+		gap: 10px;
+
+		position: absolute;
+		width: 93px;
+		height: 40px;
+		left: 193px;
+		top: 53px;
+
+		background: #ffffff;
+		border-radius: 38px;
+	}
+
+	.cabox .light .text {
+		width: 60px;
+		height: 19px;
+
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 19px;
+		/* identical to box height */
+
+		color: #1f0045;
+
+		/* Inside auto layout */
+		text-align: center;
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+	}
+
+	.cabox .line1 {
+		position: absolute;
+		left: 85%;
+		right: 6.67%;
+		top: 11%;
+		bottom: 98.4%;
+		background-color: #000000;
+
+		border: 1px solid #000000;
+	}
+	.cabox .line2 {
+		position: absolute;
+		left: 85%;
+		right: 6.67%;
+		top: 12.5%;
+		bottom: 98.2%;
+		background-color: #000000;
+
+		border: 1px solid #000000;
+	}
+	.cabox .line3 {
+		position: absolute;
+		left: 85%;
+		right: 6.67%;
+		top: 14%;
+		bottom: 98%;
+		background-color: #000000;
+		border: 1px solid #000000;
+	}
+	.cabox .findbook {
+		position: absolute;
+		left: 1.11%;
+		right: 1.11%;
+		top: 33.5%;
+		bottom: 93.29%;
+
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 26px;
+		line-height: 39px;
+		text-align: center;
+		letter-spacing: 0.05em;
+
+		color: #ffffff;
+	}
+	.cabox .easy {
+		position: absolute;
+		left: 11.2%;
+		right: 11%;
+		top: 59%;
+		bottom: 90.11%;
+
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 28px;
+		/* or 158% */
+		text-align: center;
+		color: #ffffff;
+	}
+	.cabox .create {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+		position: absolute;
+		width: 215px;
+		height: 45px;
+		left: 72px;
+		top: 481px;
+
+		background: #8c52ff;
+		border-radius: 8px;
+	}
+	.cabox .create .button {
+		position: static;
+		left: 0px;
+		right: 0px;
+		width: 265px;
+		height: 45px;
+
+		text-align: left;
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 15px;
+		line-height: 45px;
+
+		color: #ffffff;
+		padding: 0px;
+		margin: 0px;
+
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+	}
 }

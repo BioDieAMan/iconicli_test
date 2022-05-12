@@ -1,5 +1,4 @@
 import React from "react";
-import "../utils/css/landingpage.css";
 
 import Navbar from "../components/LandingPage/Navbar";
 import CreateAccount from "../components/LandingPage/CreateAccount";
@@ -14,6 +13,7 @@ import BottomInfo from "../components/LandingPage/BottomInfo";
 
 import { Box, Typography } from "@mui/material";
 import { StyledEngineProvider } from "@mui/material/styles";
+import { isMobile,isDesktop } from "react-device-detect";
 
 //TODO:rewrite all the css file into className selector
 //TODO:rewrite all the css file, make the css file as neat as possible
@@ -25,14 +25,12 @@ const Landingpage = () => {
 			<Box className="landingpage">
 				<Box>
 					<CreateAccount />
-					<YellowDots props={{ left: "145px", top: "765px" }} />
-					<Typography className="whatisiconicli">What is ICONICLI?</Typography>
-					<WhatisIconicli props={{ left: "177px", top: "941px" }} />
+					<WhatisIconicli />
 					<BookInstantly />
 					<HowItWorks />
 					<Pricing />
 					<WhyJoin />
-					<WhatSay />
+					{isDesktop?<WhatSay />:null}
 					<BottomInfo/>
 				</Box>
 				<Navbar />

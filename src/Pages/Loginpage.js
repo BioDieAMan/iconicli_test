@@ -6,7 +6,6 @@ import { useNavigate } from "react-router";
 
 import Navbar from "../components/LandingPage/Navbar";
 
-import "../utils/css/login.css";
 import history from "../history";
 
 import google from "../utils/images/Google.svg";

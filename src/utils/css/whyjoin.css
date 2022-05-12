@@ -382,3 +382,159 @@
 
 	color: #1f0045;
 }
+
+@media screen and (max-width: 700px) {
+	.join {
+	}
+
+	.join .title {
+		position: absolute;
+		left: 11.11%;
+		right: 11.11%;
+		top: 74.3%;
+		bottom: 23.93%;
+
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 36px;
+		text-align: center;
+
+		color: #1f0045;
+	}
+
+	.join .gender {
+		width: 64px;
+		height: 64px;
+		position: absolute;
+		left: 5.56%;
+		right: 76.67%;
+		top: 77.08%;
+		bottom: 21.34%;
+		border-radius: 50%;
+		background: #1f0045;
+	}
+
+	.join .decent {
+		position: absolute;
+		width: 64px;
+		height: 64px;
+		left: 20px;
+		top: 3229px;
+		border-radius: 50%;
+	}
+	.join .reduced {
+		position: absolute;
+		width: 64px;
+		height: 64px;
+		left: 20px;
+		top: 3333px;
+		border-radius: 50%;
+	}
+
+	.join .line1 {
+		position: absolute;
+		width: 0px;
+		height: 64px;
+		left: 100px;
+		top: 3125px;
+		background-color: #ffc710;
+		border: 1px solid #ffc710;
+	}
+	.join .line2 {
+		position: absolute;
+		width: 0px;
+		height: 64px;
+		left: 100px;
+		top: 3229px;
+		background-color: #ffc710;
+
+		border: 1px solid #ffc710;
+	}
+	.join .line3 {
+		position: absolute;
+		width: 0px;
+		height: 64px;
+		left: 100px;
+		top: 3333px;
+		background-color: #ffc710;
+
+		border: 1px solid #ffc710;
+		/* transform: rotate(-90deg); */
+	}
+	.join .text .gen {
+		position: absolute;
+		width: 154px;
+		height: 20px;
+		left: 123px;
+		top: 3147px;
+
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 20px;
+		/* identical to box height, or 111% */
+
+		text-align: center;
+		letter-spacing: 0.5px;
+
+		color: #1f0045;
+	}
+	.join .text .decent {
+		position: absolute;
+		width: 255px;
+		height: 40px;
+		left: 125px;
+		top: 3241px;
+
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 20px;
+		/* or 111% */
+
+		letter-spacing: 0.5px;
+
+		color: #1f0045;
+	}
+	.join .text .reduced {
+		position: absolute;
+		width: 203px;
+		height: 20px;
+		left: 125px;
+		top: 3355px;
+
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 20px;
+		/* identical to box height, or 111% */
+
+		text-align: center;
+		letter-spacing: 0.5px;
+
+		color: #1f0045;
+	}
+	.join .byusing {
+		position: absolute;
+		width: 308px;
+		height: 270px;
+		left: 26px;
+		top: 3442px;
+
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 30px;
+		/* or 188% */
+
+		letter-spacing: 1.5px;
+
+		color: #1f0045;
+	}
+}

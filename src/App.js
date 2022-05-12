@@ -1,6 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import "./utils/css/login.css";
+import "./utils/css/landingpage.css";
+import "./utils/css/registerpage.css";
 
 import Landingpage from "./Pages/Landingpage";
 import Loginpage from "./Pages/Loginpage";
@@ -9,6 +12,7 @@ import Preloadingpage from "./Pages/Preloadingpage";
 
 import "./App.css";
 import "./index.css";
+
 import history from "./history";
 
 //TODO: rewrite all the components into function component

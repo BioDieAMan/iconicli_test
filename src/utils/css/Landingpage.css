@@ -1,46 +1,40 @@
+@media screen and (min-width: 700px) {
+	.landingpage {
+		/* position: absolute; */
+		/* left: 0px; */
+		height: 5634px;
 
+		background-color: #f3f3f3;
+	}
 
-.landingpage{
-    /* position: absolute; */
-    /* left: 0px; */
-    height: 5634px;
-
-    background-color: #f3f3f3;
+	.MuiTypography-root {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		color: #1f0045;
+		text-align: left;
+		text-transform: "none";
+	}
 }
+@media screen and (max-width: 700px) {
+	.landingpage {
+		position: relative;
+		/* width: 360px; */
+		height: 4054px;
 
-.MuiTypography-root{
-    font-family: "Roboto";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 19px;
-	color: #1f0045;
-	text-align: left;
-    text-transform: "none";
-}
+		background: #f3f3f3;
+	}
 
-
-
-body{    
-    /* height: 5634px;
-
-    background-color: #f3f3f3; */
-}
-
-.whatisiconicli {
-    position: absolute;
-    width: 300px;
-    height: 42px;
-    left: 145px;
-    top: 792px;
-
-    text-align: left;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 42px;
-    /* identical to box height */
-
-    color: #000000;
+    .MuiTypography-root {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		color: #1f0045;
+		text-align: left;
+		text-transform: "none";
+	}
 }

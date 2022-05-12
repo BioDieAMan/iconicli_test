@@ -1,182 +1,183 @@
-.MuiTypography-root {
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 19px;
-	color: #1f0045;
-	text-align: left;
-	text-transform: "none";
-}
+@media screen and (min-width: 700px) {
+	.MuiTypography-root {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		color: #1f0045;
+		text-align: left;
+		text-transform: "none";
+	}
 
-.registerpage {
-	position: relative;
-	/* width: 1366px; */
-	height: 768px;
+	.registerpage {
+		position: relative;
+		/* width: 1366px; */
+		height: 768px;
 
-	background: #f3f3f3;
-}
+		background: #f3f3f3;
+	}
 
-.registerpage .rect1 {
-	position: absolute;
-	width: 480px;
-	height: 768px;
-	left: 0px;
-	top: 0px;
+	.registerpage .rect1 {
+		position: absolute;
+		width: 480px;
+		height: 768px;
+		left: 0px;
+		top: 0px;
 
-	background: #8c52ff;
-}
+		background: #8c52ff;
+	}
 
-.registerpage .title {
-	position: absolute;
-	width: 200px;
-	height: 25px;
-	left: 46px;
-	top: 46px;
+	.registerpage .title {
+		position: absolute;
+		width: 200px;
+		height: 25px;
+		left: 46px;
+		top: 46px;
 
-	/* background: #1F0045; */
-}
+		/* background: #1F0045; */
+	}
 
-.registerpage .become {
-	position: absolute;
-	width: 412px;
-	height: 120px;
-	left: 34px;
-	top: 134px;
+	.registerpage .become {
+		position: absolute;
+		width: 412px;
+		height: 120px;
+		left: 34px;
+		top: 134px;
 
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 60px;
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 60px;
 
-	color: #ffffff;
-}
+		color: #ffffff;
+	}
 
-.registerpage .instruction {
-	position: absolute;
-	width: 387px;
-	height: 144px;
-	left: 36px;
-	top: 348px;
+	.registerpage .instruction {
+		position: absolute;
+		width: 387px;
+		height: 144px;
+		left: 36px;
+		top: 348px;
 
-	font-family: "Poppins";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 36px;
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 36px;
 
-	color: #ffffff;
-}
+		color: #ffffff;
+	}
 
-.registerpage .nextstep {
-	/* display: flex; */
-	flex-direction: row;
-	align-items: flex-start;
-	padding: 0px;
+	.registerpage .nextstep {
+		/* display: flex; */
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 0px;
 
-	position: absolute;
-	width: 167px;
-	height: 60px;
-	left: 840px;
-	top: 572px;
-}
+		position: absolute;
+		width: 167px;
+		height: 60px;
+		left: 840px;
+		top: 572px;
+	}
 
-.registerpage .nextstep .box {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 16px 32px;
+	.registerpage .nextstep .box {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 16px 32px;
 
-	position: absolute;
-	left: 0%;
-	right: -0.6%;
-	top: 0%;
-	bottom: 0%;
+		position: absolute;
+		left: 0%;
+		right: -0.6%;
+		top: 0%;
+		bottom: 0%;
 
-	background: #1f0045;
-	border-radius: 8px;
+		background: #1f0045;
+		border-radius: 8px;
 
-	/* Inside auto layout */
+		/* Inside auto layout */
 
-	flex: none;
-	order: 0;
-	flex-grow: 0;
-	margin: 0px 0px;
-}
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+		margin: 0px 0px;
+	}
 
-.registerpage .nextstep .box:hover{
-	box-shadow: -5px 5px 15px #1F0045;
-}
+	.registerpage .nextstep .box:hover {
+		box-shadow: -5px 5px 15px #1f0045;
+	}
 
-.registerpage .nextstep .box:disabled {
-	box-sizing: border-box;
+	.registerpage .nextstep .box:disabled {
+		box-sizing: border-box;
 
-	/* Auto layout */
+		/* Auto layout */
 
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 16px 32px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 16px 32px;
 
-	position: absolute;
-	left: 0%;
-	right: -0.6%;
-	top: 0%;
-	bottom: 0%;
+		position: absolute;
+		left: 0%;
+		right: -0.6%;
+		top: 0%;
+		bottom: 0%;
 
-	background-color: transparent;
-	border: 1px solid #1f0045;
-	border-radius: 8px;
-}
+		background-color: transparent;
+		border: 1px solid #1f0045;
+		border-radius: 8px;
+	}
 
-.registerpage .nextstep .box:disabled .text{
-	position: absolute;
-	width: 167px;
-	height: 28px;
-	left: 0px;
-	top: 16px;
+	.registerpage .nextstep .box:disabled .text {
+		position: absolute;
+		width: 167px;
+		height: 28px;
+		left: 0px;
+		top: 16px;
 
-	text-align: center;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 28px;
+		text-align: center;
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 28px;
 
-	color: rgba(31, 0, 69, 0.5);
+		color: rgba(31, 0, 69, 0.5);
 
+		/* Inside auto layout */
 
-	/* Inside auto layout */
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+		/* margin: 0px 10px; */
+	}
 
-	flex: none;
-	order: 0;
-	flex-grow: 0;
-	/* margin: 0px 10px; */
-}
+	.registerpage .nextstep .text {
+		position: absolute;
+		width: 167px;
+		height: 32px;
+		left: 0px;
+		top: 16px;
+		text-align: center;
 
-.registerpage .nextstep .text {
-	position: absolute;
-	width: 167px;
-	height: 32px;
-	left: 0px;
-	top: 16px;
-	text-align: center;
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 28px;
 
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 28px;
+		color: #ffffff;
 
-	color: #ffffff;
+		/* Inside auto layout */
 
-	/* Inside auto layout */
-
-	flex: none;
-	order: 0;
-	flex-grow: 0;
-	/* margin: 0px 10px; */
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+		/* margin: 0px 10px; */
+	}
 }

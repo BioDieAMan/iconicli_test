@@ -1,26 +1,53 @@
 .dots-ellipse {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
 
-    position: absolute;
-    width: 294px;
-    height: 6px;
+	position: absolute;
+	width: 294px;
+	height: 6px;
 }
 
 .dots {
-    position: absolute;
-    border-radius: 50%;
-    width: 6px;
-    height: 6px;
-    top: 0px;
+	position: absolute;
+	border-radius: 50%;
+	width: 6px;
+	height: 6px;
+	top: 0px;
 
-    background: #ffc710;
+	background: #ffc710;
 
-    /* Inside auto layout */
+	/* Inside auto layout */
 
-    flex: none;
-    flex-grow: 0;
-    margin: 0px 0px;
+	flex: none;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+
+.dots-ellipse-mobile {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 10px;
+
+	position: absolute;
+	width: 256px;
+	height: 4px;
+}
+
+.dots-mobile {
+	position: absolute;
+    top:0px;
+	width: 4px;
+	height: 4px;
+
+	background: #ffc710;
+	border-radius: 50%;
+
+	/* Inside auto layout */
+
+	flex: none;
+	flex-grow: 0;
 }

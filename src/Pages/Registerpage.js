@@ -2,7 +2,6 @@ import React, { Component, useState, useEffect } from "react";
 import { Box, Typography, Button, Input } from "@mui/material";
 import { StyledEngineProvider } from "@mui/material/styles";
 
-import "../utils/css/registerpage.css";
 
 import ChooseType from "../components/RegisterPage/ChooseType";
 import Sidebar from "../components/RegisterPage/Sidebar";
