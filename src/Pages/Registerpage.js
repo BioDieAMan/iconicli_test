@@ -55,7 +55,9 @@ const Registerpage = () => {
 			<StyledEngineProvider injectFirst>
 				<Box className="registerpage">
 					<Box className="rect1"></Box>
-					<img src={titleLogo} className="title" />
+					<Button className="title" component={Link} to="/" onClick={() => this.setPath("/")}>
+						<img src={titleLogo} />
+					</Button>
 					<Typography className="become">Become a model now!</Typography>
 					<Typography className="instruction">
 						It has never been this easy. As a model, you create a beautiful portfolio with photos, reels and
